@@ -1,0 +1,365 @@
+
+body
+{
+	margin:0;
+}
+
+
+.top_section
+{
+	width:100%;
+	height:600px; 
+	float: left;
+	background-image:url(images/code2.jpg); 
+	background-size:100% 100%;
+}
+.overlay
+{
+	width:100%;
+	height:100%;
+	float: left;
+	background-color:#0000009c;
+}
+.top_titles
+{
+	width:55%;
+	height:auto;
+	float: left;
+	text-align: center;
+
+}
+.top_titles h1
+{
+	margin-top:25%;
+	font-size:40pt;
+	color:white;
+}
+.contact
+{
+	float: right; 
+	width:40%;
+	margin-right:5%;
+	background-color:#ffffff96;
+	margin-top:70px;
+}
+
+.contact form
+{
+	width:90%; 
+	margin-left:5%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.contact form button
+{
+	background-color:#2b3f78;
+	color:white;
+	width:130px;
+}
+
+
+.products
+{
+	width:80%;
+	height:auto;
+	margin-left:10%;
+	float: left;
+}
+
+.products h2
+{
+	font-size:30pt;
+}
+
+.products p
+{
+	font-size:15pt;
+	line-height:25px;
+}
+#product_heading
+{
+	margin-top:100px;
+	font-size:34pt;
+	text-align: center;
+}
+.product_sections
+{
+
+	margin-top:80px;
+	float: left;
+}
+.product_sections ul li
+{
+	list-style-type: none;
+	margin-top:10px;
+}
+.product_sections ul li i
+{
+	color:#2b3f78;
+}
+.img_left
+{
+	width:50%;
+	height: auto;
+	float: left;
+}
+.img_right
+{
+	width:50%;
+	height: auto;
+	float: right;	
+}
+.text_part
+{
+		width:50%;
+	height: auto;
+	float: left;
+}
+
+
+.cssanimation, .cssanimation span {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.cssanimation span { display: inline-block }
+
+.fadeInBottom { animation-name: fadeInBottom }
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    to { opacity: 1 }
+}
+
+
+.main_services
+{
+	width:80%;
+	height: auto;
+	margin-left: 10%;
+	float: left;
+	margin-top:70px;
+}
+.main_services h2
+{
+	text-align: center;
+	font-size:34pt;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.service_name
+{
+	width:30%;
+	min-height:330px;
+	margin-left:5%;
+	margin-top:20px;
+	text-align: center;
+	box-shadow: 1px 3px 20px 7px #7e7b7b;
+	float: left;
+}
+.service_name h4
+{
+	width:98%;
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+.service_name p
+{
+	text-align: center;
+	width:90%;
+	margin-left: 5%;
+}
+.service_name button
+{
+	height:40px;
+	width:150px;
+	color:white;
+	border: none;
+	cursor: pointer;
+	border-radius:10px;
+	margin-bottom:20px;
+	background-color:#2b3f78;
+
+}
+#service1
+{
+	margin-left: 0;
+}
+.icon_bow
+{
+	width:94%;
+	margin-left:3%;
+	margin-top:40px;
+	float: left;
+	text-align: center;
+}
+
+.icon_bow i
+{
+ font-size: 35pt;
+ padding:15px;
+ padding-top:20px;
+ border-radius:50px;
+ color: #30314d;
+ background-color:silver;
+}
+
+.footer
+{
+	width:100%;
+	background-color: #000000c7;
+	margin-top:50px;
+	color: white;
+	float: left;
+}
+.footer_part
+{
+	width: 50%;
+	text-align: center;
+	margin-top:40px;
+	margin-bottom:20px;
+	height:auto;
+	float: left;
+}
+.footer_part a
+{
+	text-decoration: none;
+	color: white;
+}
+.footer_part a i
+{
+	margin-right:10px;
+}
+.footer_part a #facebook i
+{
+	font-size:20pt;
+	color:white;
+	padding:10px;
+	float: left;
+	margin-left:47%;
+	background-color: #7676e7;
+}
+.footer_part a:hover
+{
+	color:white;
+}
+.footer_part p
+{
+	width:90%;
+	margin-left:5%;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:600px)
+{
+	.footer_part
+	{
+		width:90%;
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (max-width:849px)
+{
+	.top_section
+	{
+		height:auto;
+	}
+	.top_titles
+	{
+		width:100%;
+	}
+	.top_titles h1
+	{
+		font-size:30pt;
+	}
+
+	.contact
+	{
+		width:80%;
+		margin-right:10%;
+		margin-bottom:20px;
+	}
+	.img_left img
+	{
+		width:100%;
+	}
+	.products
+{
+	width:90%;
+	margin-left:5%;
+}
+	.main_services
+{
+	width:90%;
+	margin-left:5%;
+}
+.service_name
+{
+ width:100%;
+ margin-left: 0;
+}
+}
+
+@media (max-width:992px) and (min-width:851px)
+
+{
+
+.products
+{
+	width:94%;
+	margin-left:3%;
+}
+.main_services
+{
+	width:94%;
+	margin-left:3%;
+}
+
+
+}
+
+@media (max-width:1200px) and (min-width:993px)
+
+{
+
+.products
+{
+	width:94%;
+	margin-left:3%;
+}
+.main_services
+{
+	width:94%;
+	margin-left:3%;
+}
+
+}
+
+@media only screen and (max-width:850px)
+
+{
+
+	.img_left
+{
+	width:100%;
+}
+.img_right
+{
+	width:100%;
+
+}
+.text_part
+{
+		width:100%;
+}
+}
